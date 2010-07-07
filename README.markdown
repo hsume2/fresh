@@ -2,7 +2,7 @@
 
 An infant Ruby DSL for syncing local <=> remote data. i.e.:
 
-    Local.has_sync { # Work on any Ruby Object
+    Local.has_sync { # Works on any Ruby Object
       find_local { # Return local array of objects to sync }
       find_remote { # Return remote array of objects to sync }
 
